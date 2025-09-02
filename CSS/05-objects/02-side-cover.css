@@ -1,0 +1,44 @@
+/* SIDE */
+
+
+
+.side-cover{
+    
+    position: sticky;
+    margin-top: -250px;
+    top: 200px;
+    z-index: 8;
+    display:flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 200px;
+
+    .item{
+        position: absolute;
+        width: 250px;
+        .imagen{
+            height: 100%;
+            width: 100%;
+            border: 3px solid #ffffff;
+            border-bottom: 10px solid #ffffff;
+        }
+        .title{
+            position: absolute;
+            text-transform: uppercase;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 20px;
+            letter-spacing: 10px;
+            bottom: 30px;
+            margin-left: 20px;
+            } 
+    }
+}
+
+
+
+
+
+
+
+

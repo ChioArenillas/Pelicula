@@ -1,0 +1,56 @@
+
+/* ACTORS */
+
+.actors-section{
+    background-color: #ffff;
+    color: #737373;
+    padding-bottom: 300px;
+    
+    .title-section{
+        font-size: 32px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+        padding-bottom: 30px;
+
+        &::after{
+            content: '';
+            display: block;
+            height: 3px;
+            width: 100%;
+            background: #f8b350;
+            margin-bottom: 20px auto 0;
+        } 
+    }
+    .actors{
+        display: flex;
+        gap: 3px;
+
+        .item{
+
+            .imagen{
+                width: 95px;
+                height: 100px;
+                object-fit: cover;
+            }
+            .name{
+                font-weight: bold;
+                padding-left: 5px;
+            }
+            .subtitle{
+                padding-left: 5px;
+            }
+        }   
+
+        :hover{
+            cursor: pointer;
+            color: black;
+        }
+    }
+
+}
+
+
+
+
+
